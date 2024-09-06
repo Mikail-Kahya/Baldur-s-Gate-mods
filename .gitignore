@@ -1,4 +1,5 @@
-/bg3Modder
-/bg3ModManager
-/lslib
-/Tutorial
+bg3Modder/
+bg3ModManager/
+lslib/
+Tutorial/
+**/.vs/
