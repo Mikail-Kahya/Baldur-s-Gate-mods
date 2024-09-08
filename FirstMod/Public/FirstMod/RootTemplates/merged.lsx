@@ -4,26 +4,26 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>				
-				<node id="GameObjects"> A template for a weapon - The black text after the brackets can be deleted and is not necessary
+				<node id="GameObjects">
 					<attribute id="CanShootThrough" type="bool" value="True" />
-					<attribute id="Description" type="TranslatedString" handle="Handle from xml localization file" version="1" /> CHANGE THIS - Pointing to the Handle for the description in the XML file in the localization folder
-					<attribute id="DisplayName" type="TranslatedString" handle="Handle from xml localization file" version="1" /> CHANGE THIS - Pointing to the Handle for the display name in the XML file in the localization folder
-					<attribute id="EquipmentTypeID" type="guid" value="This is found in one of the RootTemplate files and is necessary" />  CHANGE THIS - This tells the game what type of base item this is.
+					<attribute id="Description" type="TranslatedString" handle="h3c5c681fg309cg4410g8ec1g45fa4bd8310e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9ebc78deg7d7fg4a80g8bcfg8abbf88abdc2" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="bf90a760-4f63-416d-969d-0ec12872e8d5" />
 					<attribute id="Flag" type="int64" value="0" />
-					<attribute id="Icon" type="FixedString" value="This is found in one of the RootTemplate files and is necessary" />  CHANGE THIS - This is the inventory icon the game uses for your item
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Longbow_A_1" />
 					<attribute id="IsInspector" type="bool" value="True" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="LevelOverride" type="int64" value="-1" />
-					<attribute id="MapKey" type="FixedString" value="Unique UUID generated from the Multi-Tool" />  CHANGE THIS - UUID Generated from Multi-Tool
-					<attribute id="Name" type="LSString" value="The txt name from the Stats folder" />  CHANGE THIS - This is the name you created inside the txt file for your item
-					<attribute id="ParentTemplateId" type="FixedString" value="This is found in one of the RootTemplate files and is necessary" />  CHANGE THIS - Tells the game what specific kind of item your item is copying
-					<attribute id="PhysicsTemplate" type="FixedString" value="This is found in one of the RootTemplate files and is necessary" />  CHANGE THIS - Tells the game the physics of the item - how it is held - wielded - moved etc etc
+					<attribute id="MapKey" type="FixedString" value="203251c9-455e-434b-b2de-979df1637aca" />
+					<attribute id="Name" type="LSString" value="FM_Taulmaril" />
+					<attribute id="ParentTemplateId" type="FixedString" value="118967f7-14de-41fa-bec8-3ba383252e9a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3b59f4aa-474c-927b-0adf-ca22245fcad9" />
 					<attribute id="Race" type="int8" value="0" />
 					<attribute id="ReadinessFlags" type="uint32" value="144" />
-					<attribute id="Stats" type="FixedString" value="The txt name from the Stats folder - same as above" />  CHANGE THIS - This is the name you created inside the txt file for your item
+					<attribute id="Stats" type="FixedString" value="FM_Taulmaril" />
 					<attribute id="Tooltip" type="uint8" value="2" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="This is found in one of the RootTemplate files and is necessary" />  CHANGE THIS - This tells the game what the item looks like in game
+					<attribute id="VisualTemplate" type="FixedString" value="7e81bb6a-f465-4fe9-b1db-7ce6198246ba" />
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<children>
@@ -43,7 +43,7 @@
 							</children>
 						</node>
 					</children>
-				</node>			
+				</node>
 			</children>
 		</node>
 	</region>
